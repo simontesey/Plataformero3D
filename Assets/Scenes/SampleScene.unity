@@ -1415,6 +1415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eda6efa54e59ce499f3644d5160a39d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Zonareinicio
+  tagJugador: Player
 --- !u!1 &1374046861 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2011197307102065991, guid: 1e512cd0ae9697e4fbec7ba59d16bc39, type: 3}
@@ -3810,6 +3811,10 @@ PrefabInstance:
       propertyPath: m_StaticShadowCaster
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1937222554946550928, guid: 1e512cd0ae9697e4fbec7ba59d16bc39, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ac63216428ea1d746a1af24141521624, type: 2}
     - target: {fileID: 2011197307102065991, guid: 1e512cd0ae9697e4fbec7ba59d16bc39, type: 3}
       propertyPath: m_Name
       value: Capsule
